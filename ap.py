@@ -28,5 +28,7 @@ def main():
         for entity, label in entities:
             st.write(f"- {entity} ({label})")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
+
+  
